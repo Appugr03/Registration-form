@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000; /* Solid black background */
+    font-family: 'Poppins', sans-serif;
+    background: url('a6.jpg') no-repeat center center;
+    background-size: cover;
+    color: #FFFFFF; /* White for text */
+}
+
+.wrapper {
+    width: 420px;
+    background: rgba(0, 0, 0, 0.8); /* Slightly transparent black */
+    color: #FFFFFF; /* White text */
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFFFFF; /* White text for heading */
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+    border: 2px solid #666666; /* Subtle gray border */
+    border-radius: 25px;
+    font-size: 16px;
+    color: #FFFFFF; /* White input text */
+    padding: 0 45px 0 20px;
+    outline: none;
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Light white for placeholder */
+    font-size: 16px;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #FFFFFF; /* White icons */
+}
+
+/* New confirm password field (if applicable) */
+.input-box.confirm-password input {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+    border: 2px solid #666666; /* Subtle gray border */
+    border-radius: 25px;
+    font-size: 16px;
+    color: #FFFFFF; /* White input text */
+    padding: 0 45px 0 20px;
+    outline: none;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -10px 0 20px;
+}
+
+.remember-forgot label input {
+    margin-right: 5px;
+    accent-color: #FFFFFF; /* White checkbox */
+}
+
+.remember-forgot a {
+    color: #1E90FF; /* White links */
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background: #FF4500; /* Vibrant Orange Red button */
+    color: #FFFFFF; /* White text on button */
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #FF6347; /* Lighter shade of orange for hover */
+}
+
+.register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link p {
+    font-size: 14px;
+    color: #FFFFFF; /* White text for register link */
+}
+
+.register-link p a {
+    color: #1E90FF; /* Dodger Blue for links */
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
